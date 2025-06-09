@@ -1,6 +1,22 @@
 # Dashboard
 
-This is a React-based dashboard project that can be deployed to GitHub Pages.
+This is a React-based COVID-19 dashboard that visualizes US state-level and national COVID-19 data using interactive D3 charts and maps.
+
+## Dataset
+
+This project uses the [New York Times COVID-19 Data](https://github.com/nytimes/covid-19-data) as its primary data source. The dataset is included in the `public/data/covid-19-data` directory and is updated regularly from the NYTimes repository.
+
+## Implementation Approach
+
+- **Frontend:** Built with React and TypeScript for modular, maintainable UI components.
+- **Visualization:** Uses D3.js for rendering interactive bubble charts and a US map.
+- **Responsive Design:** All charts and controls are fully responsive and adapt to different screen sizes.
+- **Features:**
+  - Interactive US map with state highlighting and tooltips
+  - Yearly and cumulative bubble charts for cases and deaths
+  - Year selection controls with responsive layout
+  - Consistent color mapping between map and charts
+- **Data Loading:** Data is loaded from local CSV files (from the NYTimes dataset) and processed in the browser.
 
 ## Available Scripts
 
