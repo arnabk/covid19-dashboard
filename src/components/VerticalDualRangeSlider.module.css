@@ -1,0 +1,56 @@
+/* VerticalDualRangeSlider.module.css */
+.slider-vertical {
+  -webkit-appearance: none;
+  appearance: none;
+  width: 2rem;
+  height: 100%;
+  background: transparent;
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%) rotate(270deg);
+  pointer-events: auto;
+}
+
+.slider-vertical::-webkit-slider-thumb {
+  -webkit-appearance: none;
+  appearance: none;
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  background: #18181b;
+  border: 2px solid #fff;
+  cursor: pointer;
+  box-shadow: 0 0 2px #000;
+  transition: background 0.2s;
+}
+.slider-vertical::-moz-range-thumb {
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  background: #18181b;
+  border: 2px solid #fff;
+  cursor: pointer;
+  box-shadow: 0 0 2px #000;
+  transition: background 0.2s;
+}
+.slider-vertical::-ms-thumb {
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  background: #18181b;
+  border: 2px solid #fff;
+  cursor: pointer;
+  box-shadow: 0 0 2px #000;
+  transition: background 0.2s;
+}
+.slider-vertical::-webkit-slider-runnable-track {
+  height: 6px;
+  background: transparent;
+}
+.slider-vertical::-ms-fill-lower,
+.slider-vertical::-ms-fill-upper {
+  background: transparent;
+}
+.slider-vertical:focus {
+  outline: none;
+} 
